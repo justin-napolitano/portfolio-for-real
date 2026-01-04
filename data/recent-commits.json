@@ -1,0 +1,107 @@
+{
+  "updatedAt": "2026-01-04T19:18:13.765Z",
+  "source": "github-search",
+  "username": "justin-napolitano",
+  "commits": [
+    {
+      "sha": "2fc1599a7d7974364cab734053fc95cd77329c4d",
+      "shortSha": "2fc1599",
+      "repo": "justin-napolitano/justin-portfolio-poc-with-docs",
+      "repoUrl": "https://github.com/justin-napolitano/justin-portfolio-poc-with-docs",
+      "author": "Justin Napolitano",
+      "date": "2026-01-02T21:22:36.000Z",
+      "message": "hero card (#30)",
+      "url": "https://github.com/justin-napolitano/justin-portfolio-poc-with-docs/commit/2fc1599a7d7974364cab734053fc95cd77329c4d"
+    },
+    {
+      "sha": "89a0b6ed77446e004dcfcfd45e470ffd955151d6",
+      "shortSha": "89a0b6e",
+      "repo": "justin-napolitano/justin-portfolio-poc-with-docs",
+      "repoUrl": "https://github.com/justin-napolitano/justin-portfolio-poc-with-docs",
+      "author": "Justin Napolitano",
+      "date": "2026-01-02T20:37:01.000Z",
+      "message": "hero style updated (#29)",
+      "url": "https://github.com/justin-napolitano/justin-portfolio-poc-with-docs/commit/89a0b6ed77446e004dcfcfd45e470ffd955151d6"
+    },
+    {
+      "sha": "0ec92dcab8213ddaac3a18f2c98472e15b22cafe",
+      "shortSha": "0ec92dc",
+      "repo": "justin-napolitano/justin-portfolio-poc-with-docs",
+      "repoUrl": "https://github.com/justin-napolitano/justin-portfolio-poc-with-docs",
+      "author": "Justin Napolitano",
+      "date": "2026-01-02T19:24:53.000Z",
+      "message": "Merge remote-tracking branch 'origin/main'",
+      "url": "https://github.com/justin-napolitano/justin-portfolio-poc-with-docs/commit/0ec92dcab8213ddaac3a18f2c98472e15b22cafe"
+    },
+    {
+      "sha": "0b3e32bc9fe482ae477fb4581740096327aea870",
+      "shortSha": "0b3e32b",
+      "repo": "justin-napolitano/justin-portfolio-poc-with-docs",
+      "repoUrl": "https://github.com/justin-napolitano/justin-portfolio-poc-with-docs",
+      "author": "Justin Napolitano",
+      "date": "2026-01-02T19:16:24.000Z",
+      "message": "cards revised and metadata updated",
+      "url": "https://github.com/justin-napolitano/justin-portfolio-poc-with-docs/commit/0b3e32bc9fe482ae477fb4581740096327aea870"
+    },
+    {
+      "sha": "8270037a1f4460b28d76dcd94648dd28ca7f918b",
+      "shortSha": "8270037",
+      "repo": "justin-napolitano/justin-portfolio-poc-with-docs",
+      "repoUrl": "https://github.com/justin-napolitano/justin-portfolio-poc-with-docs",
+      "author": "Justin Napolitano",
+      "date": "2025-12-30T20:11:49.000Z",
+      "message": "we are good enoguh (#27)",
+      "url": "https://github.com/justin-napolitano/justin-portfolio-poc-with-docs/commit/8270037a1f4460b28d76dcd94648dd28ca7f918b"
+    },
+    {
+      "sha": "35e7a07bd24588a0617de39ab834b1843fe8c830",
+      "shortSha": "35e7a07",
+      "repo": "justin-napolitano/justin-portfolio-poc-with-docs",
+      "repoUrl": "https://github.com/justin-napolitano/justin-portfolio-poc-with-docs",
+      "author": "Justin Napolitano",
+      "date": "2025-12-30T20:09:24.000Z",
+      "message": "we are good enoguh",
+      "url": "https://github.com/justin-napolitano/justin-portfolio-poc-with-docs/commit/35e7a07bd24588a0617de39ab834b1843fe8c830"
+    },
+    {
+      "sha": "89d2996cb531d052c4eff609cbee71ed41e9766a",
+      "shortSha": "89d2996",
+      "repo": "justin-napolitano/journal-zine",
+      "repoUrl": "https://github.com/justin-napolitano/journal-zine",
+      "author": "Justin Napolitano",
+      "date": "2025-12-30T18:52:53.000Z",
+      "message": "Merge pull request #14 from justin-napolitano/template",
+      "url": "https://github.com/justin-napolitano/journal-zine/commit/89d2996cb531d052c4eff609cbee71ed41e9766a"
+    },
+    {
+      "sha": "77d92c7e7f4766ae4c1f58cbdaaf95a59e362f9d",
+      "shortSha": "77d92c7",
+      "repo": "justin-napolitano/journal-zine",
+      "repoUrl": "https://github.com/justin-napolitano/journal-zine",
+      "author": "Justin Napolitano",
+      "date": "2025-12-30T18:51:45.000Z",
+      "message": "cleaned up and pretty enought",
+      "url": "https://github.com/justin-napolitano/journal-zine/commit/77d92c7e7f4766ae4c1f58cbdaaf95a59e362f9d"
+    },
+    {
+      "sha": "3b19931c90e0143f2199611d2c6d35faa67bde3a",
+      "shortSha": "3b19931",
+      "repo": "justin-napolitano/journal-zine",
+      "repoUrl": "https://github.com/justin-napolitano/journal-zine",
+      "author": "Justin Napolitano",
+      "date": "2025-12-30T18:36:11.000Z",
+      "message": "good enough but we gonna get creative",
+      "url": "https://github.com/justin-napolitano/journal-zine/commit/3b19931c90e0143f2199611d2c6d35faa67bde3a"
+    },
+    {
+      "sha": "3675b8f942d44f0321a666dced9abab8b6b1c39d",
+      "shortSha": "3675b8f",
+      "repo": "justin-napolitano/creative-resume",
+      "repoUrl": "https://github.com/justin-napolitano/creative-resume",
+      "author": "Justin Napolitano",
+      "date": "2025-12-29T23:50:19.000Z",
+      "message": "Merge pull request #9 from justin-napolitano/skill-graph",
+      "url": "https://github.com/justin-napolitano/creative-resume/commit/3675b8f942d44f0321a666dced9abab8b6b1c39d"
+    }
+  ]
+}

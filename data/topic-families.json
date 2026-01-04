@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "max_families": 7,
+    "notes": "Categories reflect main technical domains, workflows, and personal interests as derived from the given entries."
+  },
+  "families": [
+    {
+      "id": "automation",
+      "label": "Automation",
+      "description": "Scripts and projects focused on automating build, deployment, git workflows, and content publishing.",
+      "color": "emerald",
+      "example_slugs": [
+        "github-8rivers",
+        "github-gh-submodule-sync",
+        "github-github-scripts",
+        "github-auto-commit-changes",
+        "github-create-a-github-template-repo",
+        "github-gh-create-from-template",
+        "github-gh-pages-workflow",
+        "github-blog-template"
+      ],
+      "suggested_tags": [
+        "automation",
+        "bash",
+        "python",
+        "git",
+        "github",
+        "makefile",
+        "ci-cd",
+        "deployment",
+        "docker",
+        "github-actions"
+      ]
+    },
+    {
+      "id": "datascience",
+      "label": "Datascience",
+      "description": "Data analysis projects, notebooks, ETL pipelines, simulations, and scripts for scientific and economic data workflows.",
+      "color": "sky",
+      "example_slugs": [
+        "github-ch4-emissions",
+        "github-carbon-storage-projections",
+        "github-cost-of-living-projections",
+        "github-finance-index-dashboard",
+        "github-pmc-submission",
+        "github-pandasapi",
+        "github-projecteuler",
+        "github-cis2348"
+      ],
+      "suggested_tags": [
+        "python",
+        "jupyter",
+        "etl-pipeline",
+        "simulation",
+        "data-analysis",
+        "geospatial",
+        "monte-carlo",
+        "statistical-testing",
+        "bigquery",
+        "pandas"
+      ]
+    },
+    {
+      "id": "static",
+      "label": "Static",
+      "description": "Static site and blog projects using Hugo, Sphinx, Gatsby, and related automation tooling.",
+      "color": "violet",
+      "example_slugs": [
+        "github-hugo-blog",
+        "github-blog-jnapolitano-io",
+        "github-blog",
+        "github-data-blog",
+        "github-jnapolitano-com",
+        "github-jnapolitano-io",
+        "github-notzine-com",
+        "github-hugo-data-blog"
+      ],
+      "suggested_tags": [
+        "hugo",
+        "sphinx",
+        "static-site",
+        "gatsby",
+        "python",
+        "build-automation",
+        "documentation",
+        "blogging",
+        "themes",
+        "github-pages"
+      ]
+    },
+    {
+      "id": "devtools",
+      "label": "Devtools",
+      "description": "Configuration and setup for development environments including shell, editor, OS setup, and reproducible dev workstations.",
+      "color": "indigo",
+      "example_slugs": [
+        "github-linux-dev-setup",
+        "github-mac-dev",
+        "github-nix-tools",
+        "github-config",
+        "github-oh-my-zsh-install",
+        "github-librespot",
+        "github-gcputils"
+      ],
+      "suggested_tags": [
+        "linux",
+        "shell",
+        "zsh",
+        "oh-my-zsh",
+        "nix",
+        "home-manager",
+        "macos",
+        "neovim",
+        "bash",
+        "containers"
+      ]
+    },
+    {
+      "id": "latex",
+      "label": "Latex",
+      "description": "Projects around LaTeX resume templates, cover letters, and build automation for professional document preparation.",
+      "color": "amber",
+      "example_slugs": [
+        "github-analyst-resume",
+        "github-apex-resume",
+        "github-architect-resume",
+        "github-good-resume",
+        "github-data-engineer-resume",
+        "github-data-strategist-resume",
+        "github-cover-letter",
+        "github-ny-times-newsreoom-strategist"
+      ],
+      "suggested_tags": [
+        "latex",
+        "resume-template",
+        "cover-letter",
+        "automation",
+        "python",
+        "xelatex",
+        "makefile",
+        "build-automation",
+        "document-class",
+        "deployment"
+      ]
+    },
+    {
+      "id": "climbing",
+      "label": "Climbing",
+      "description": "Documentation and reflections related to hiking, climbing, and outdoor gear and routines.",
+      "color": "emerald",
+      "example_slugs": [
+        "github-grays-peak",
+        "github-making-an-outdoor-living-room",
+        "github-curate-an-edc-pouch",
+        "github-driving",
+        "github-enter-my-car"
+      ],
+      "suggested_tags": [
+        "hiking",
+        "outdoor",
+        "camping",
+        "edc",
+        "gear",
+        "ergonomics",
+        "physical-comfort"
+      ]
+    },
+    {
+      "id": "personal",
+      "label": "Personal",
+      "description": "Personal journals, dietary logs, reflections, and attitude documentation in markdown, focusing on health, habits, and lifestyle.",
+      "color": "rose",
+      "example_slugs": [
+        "github-bad-food",
+        "github-giving-up",
+        "github-instagram",
+        "github-overtrain",
+        "github-love-is-hard",
+        "github-embrace-mundanity",
+        "github-cigarettes",
+        "github-cigarettes-again"
+      ],
+      "suggested_tags": [
+        "markdown",
+        "personal-journal",
+        "dietary-habits",
+        "health",
+        "reflection",
+        "mental-health",
+        "habit-formation",
+        "content-archive",
+        "food-consumption",
+        "lifestyle"
+      ]
+    }
+  ]
+}
