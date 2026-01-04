@@ -23,17 +23,20 @@ if (!username) {
   throw new Error("Provide GITHUB_USERNAME so the script knows which author to query");
 }
 
+const resolvedToken = token;
+const resolvedUsername = username;
+
 async function main() {
   const commits = await fetchGithubCommits({
-    token,
-    username,
+    token: resolvedToken,
+    username: resolvedUsername,
     limit: LIMIT,
   });
 
   const payload = {
     updatedAt: new Date().toISOString(),
     source: "github-search",
-    username,
+    username: resolvedUsername,
     commits,
   };
 
