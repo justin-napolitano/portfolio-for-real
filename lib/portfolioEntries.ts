@@ -192,16 +192,24 @@ export async function fetchPublishedEntryMetas(): Promise<EntryMeta[]> {
       ORDER BY COALESCE(publish_at, created_at) DESC
     `;
 
-    return rows.filter(isPublished).map(rowToMeta);
+    const published = rows.filter(isPublished).map(rowToMeta);
+    if (published.length) {
+      return published;
+    }
   } catch (error) {
     if (process.env.NODE_ENV !== "production") {
       console.warn("Failed to fetch entry metadata", error);
     }
-    return [];
   }
+
+  return [];
 }
 
 export async function fetchEntryBySlug(slug: string): Promise<Entry | null> {
+  if (!slug) {
+    return null;
+  }
+
   try {
     await initDb();
     const { rows } = await sql<DbEntryRow>`
@@ -243,6 +251,7 @@ export async function fetchEntryBySlug(slug: string): Promise<Entry | null> {
     if (process.env.NODE_ENV !== "production") {
       console.warn(`Failed to fetch entry ${slug}`, error);
     }
-    return null;
   }
+
+  return null;
 }

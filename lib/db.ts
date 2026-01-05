@@ -118,11 +118,20 @@ export async function initDb() {
   await sql`ALTER TABLE posts ADD COLUMN IF NOT EXISTS publish_at TIMESTAMPTZ;`;
   await sql`ALTER TABLE posts ADD COLUMN IF NOT EXISTS entry_slug TEXT;`;
 
-  await sql`ALTER TABLE posts DROP CONSTRAINT IF EXISTS posts_entry_slug_key;`;
-  await sql`
-    ALTER TABLE posts
-    ADD CONSTRAINT posts_entry_slug_key UNIQUE (entry_slug);
+  const { rows: slugConstraint } = await sql<{ exists: boolean }>`
+    SELECT 1 AS exists
+    FROM information_schema.table_constraints
+    WHERE constraint_name = 'posts_entry_slug_key'
+      AND table_name = 'posts'
+      AND table_schema = current_schema()
+    LIMIT 1
   `;
+  if (!slugConstraint.length) {
+    await sql`
+      ALTER TABLE posts
+      ADD CONSTRAINT posts_entry_slug_key UNIQUE (entry_slug);
+    `;
+  }
 
   // Portfolio entries need full bodies; drop the legacy length constraint if present.
   await sql`ALTER TABLE posts DROP CONSTRAINT IF EXISTS posts_body_check;`;

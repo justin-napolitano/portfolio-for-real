@@ -4,7 +4,7 @@ import { fetchPublishedEntryMetas } from "@/lib/portfolioEntries";
 
 export const metadata = {
   title: "Documentation index",
-  description: "Browse every experiment, workshop, and data platform that powers the docs.",
+  description: "Browse every project, workshop, and data platform that powers the docs.",
 };
 
 export default async function ProjectsPage() {
@@ -14,7 +14,7 @@ export default async function ProjectsPage() {
     <main className="page-shell">
       <header className="section section--intro">
         <p className="eyebrow">Documentation index</p>
-        <h1>Every experiment in one place</h1>
+        <h1>Every project in one place</h1>
         <p>
           From data infrastructure firefights to long-form case studies, this index captures
           the working notes referenced across the documentation site. Filter it however you like
