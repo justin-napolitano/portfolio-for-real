@@ -57,8 +57,8 @@ export default async function HomePage() {
     <main className="page-shell">
       <Hero
         kicker="Docs & Field Guides"
-        title="Living documentation for data-forward playbooks"
-        description="This is the working notebook for prototypes, civic data platforms, and integration scripts. Treat it like an open operations manual—complete with patterns, references, and narrative case studies."
+        title="Living docs for data playbooks"
+        description={`This is the working notebook for prototypes, civic data platforms, and integration scripts. Treat it like an open operations manual—complete with patterns, references, and narrative case studies.`}
         note={heroNote}
         primaryCta={{ label: "Browse the docs", href: "/projects" }}
         secondaryCta={{ label: "Email for support", href: "mailto:hello@justin.is" }}
@@ -159,7 +159,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="section doc-split">
+      <section className="section">
         <div className="doc-panel">
           <p className="eyebrow">Release notes</p>
           <h2>Latest working memos</h2>
@@ -189,16 +189,6 @@ export default async function HomePage() {
           <Link className="text-link" href="/projects">
             Browse changelog →
           </Link>
-        </div>
-        <div className="doc-panel doc-panel--accent">
-          <p className="eyebrow">Getting started</p>
-          <h3>Ship your own toolkit</h3>
-          <ul className="doc-checklist">
-            <li>Audit your current stack and naming systems.</li>
-            <li>Map datasets to owners, refresh cadence, and trust level.</li>
-            <li>Prototype decision aids that mirror how teams actually talk.</li>
-            <li>Document the rituals so handoffs stay lightweight.</li>
-          </ul>
         </div>
       </section>
 
@@ -244,25 +234,6 @@ export default async function HomePage() {
           </div>
         )}
       </section>
-
-      {featured.length ? (
-        <section className="section">
-          <div className="section__header">
-            <div>
-              <p className="eyebrow">Case notes</p>
-              <h2>Reference implementations</h2>
-            </div>
-            <Link className="text-link" href="/projects">
-              View everything →
-            </Link>
-          </div>
-          <div className="project-grid">
-            {featured.map((entry) => (
-              <ProjectCard key={entry.id} entry={entry} />
-            ))}
-          </div>
-        </section>
-      ) : null}
 
       <CTASection
         heading="Need extra annotations or missing context?"

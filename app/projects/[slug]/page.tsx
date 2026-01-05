@@ -12,8 +12,18 @@ export async function generateStaticParams() {
   return entries.map((entry) => ({ slug: entry.id }));
 }
 
-export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
-  const entry = await fetchEntryBySlug(params.slug);
+type ParamsProps = { params: Params } | { params: Promise<Params> };
+
+async function resolveParams(params: Params | Promise<Params>): Promise<Params> {
+  if (typeof (params as Promise<Params>).then === "function") {
+    return params as Promise<Params>;
+  }
+  return params as Params;
+}
+
+export async function generateMetadata({ params }: ParamsProps): Promise<Metadata> {
+  const { slug } = await resolveParams(params);
+  const entry = await fetchEntryBySlug(slug);
   if (!entry) {
     return {
       title: "Project not found",
@@ -25,8 +35,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
-export default async function ProjectPage({ params }: { params: Params }) {
-  const entry = await fetchEntryBySlug(params.slug);
+export default async function ProjectPage({ params }: ParamsProps) {
+  const { slug } = await resolveParams(params);
+  const entry = await fetchEntryBySlug(slug);
   if (!entry) {
     notFound();
   }
