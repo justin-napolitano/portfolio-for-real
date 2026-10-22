@@ -1,0 +1,2178 @@
+{
+  "renderedSourceCommit": "f8490d1",
+  "responsive": {
+    "name": "docs",
+    "url": "http://127.0.0.1:4423/",
+    "captures": [
+      {
+        "width": 390,
+        "path": "/Users/justin/repos/brand-review/2026-10-22/implementation-evidence/browser-qa/2026-10-22T19-15-27-994Z/docs-390.png",
+        "dom": {
+          "title": "Justin Napolitano | Portfolio",
+          "viewport": {
+            "width": 390,
+            "height": 900
+          },
+          "documentWidth": 390,
+          "body": {
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "27.2px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgb(244, 240, 232)"
+          },
+          "headings": [
+            {
+              "tag": "H1",
+              "text": "Living docs for data playbooks",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "28px",
+              "fontWeight": "400",
+              "lineHeight": "36.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Field notes plus reproducible recipes",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Stacks, experiments, and routines",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Automation",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Datascience",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Static",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Devtools",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Latex",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Climbing",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Personal",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Latest working memos",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Latest commits from justin-napolitano",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Need extra annotations or missing context?",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          ],
+          "overflowCandidates": [],
+          "links": [
+            {
+              "label": "Docs",
+              "href": "/",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Index",
+              "href": "/",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Archive",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Contact",
+              "href": "mailto://hello@justin.is",
+              "sameOrigin": false,
+              "contact": true,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Browse the docs",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Email for support",
+              "href": "mailto://hello@justin.is",
+              "sameOrigin": false,
+              "contact": true,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "View full archive \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Java Workflow for Neo4j Meta-Relationships Management",
+              "href": "/projects/github-supreme-court-meta-relationships",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "CoxOil Project Overview and Implementation Details",
+              "href": "/projects/github-coxoil",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Automated Documentation and Deployment for Energy Site",
+              "href": "/projects/github-gas-jnapolitano-io",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Browse changelog \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/de4c5572e8585a27774332915bb2020895cb364b",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/0117a4fb0847e1753b73a31a97d1da37bb40ef21",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/f45bc27362779d63bab61e62ccf5ed6e0d00ae4e",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/3463a28f6cbb1014cddf736efb3dd1773410429b",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/7c8d96211f98b4e2a49c427893993910402b0019",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/eb37aa150234e5b3e80881a91bb698f67e1e93e7",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/5512e634133cc26d12b48ebd8fcac55118b817e2",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/a2a6a014b270af68aa999c022b809104b153e044",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/1ae7c7a8c5158c53ac50829c8f186401c055af76",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/9fa6f75d6c286572b65f23a33af48ee5a877bf1a",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "Request an update",
+              "href": "mailto://hello@justin.is",
+              "sameOrigin": false,
+              "contact": true,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Documentation index",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            }
+          ],
+          "forms": [],
+          "fontStatus": "loaded"
+        }
+      },
+      {
+        "width": 768,
+        "path": "/Users/justin/repos/brand-review/2026-10-22/implementation-evidence/browser-qa/2026-10-22T19-15-27-994Z/docs-768.png",
+        "dom": {
+          "title": "Justin Napolitano | Portfolio",
+          "viewport": {
+            "width": 768,
+            "height": 900
+          },
+          "documentWidth": 768,
+          "body": {
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "27.2px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgb(244, 240, 232)"
+          },
+          "headings": [
+            {
+              "tag": "H1",
+              "text": "Living docs for data playbooks",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "28px",
+              "fontWeight": "400",
+              "lineHeight": "36.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Field notes plus reproducible recipes",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Stacks, experiments, and routines",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Automation",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Datascience",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Static",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Devtools",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Latex",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Climbing",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Personal",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Latest working memos",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Latest commits from justin-napolitano",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Need extra annotations or missing context?",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          ],
+          "overflowCandidates": [],
+          "links": [
+            {
+              "label": "Docs",
+              "href": "/",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Index",
+              "href": "/",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Archive",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Contact",
+              "href": "mailto://hello@justin.is",
+              "sameOrigin": false,
+              "contact": true,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Browse the docs",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Email for support",
+              "href": "mailto://hello@justin.is",
+              "sameOrigin": false,
+              "contact": true,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "View full archive \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Java Workflow for Neo4j Meta-Relationships Management",
+              "href": "/projects/github-supreme-court-meta-relationships",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "CoxOil Project Overview and Implementation Details",
+              "href": "/projects/github-coxoil",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Automated Documentation and Deployment for Energy Site",
+              "href": "/projects/github-gas-jnapolitano-io",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Browse changelog \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/de4c5572e8585a27774332915bb2020895cb364b",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/0117a4fb0847e1753b73a31a97d1da37bb40ef21",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/f45bc27362779d63bab61e62ccf5ed6e0d00ae4e",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/3463a28f6cbb1014cddf736efb3dd1773410429b",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/7c8d96211f98b4e2a49c427893993910402b0019",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/eb37aa150234e5b3e80881a91bb698f67e1e93e7",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/5512e634133cc26d12b48ebd8fcac55118b817e2",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/a2a6a014b270af68aa999c022b809104b153e044",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/1ae7c7a8c5158c53ac50829c8f186401c055af76",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/9fa6f75d6c286572b65f23a33af48ee5a877bf1a",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "Request an update",
+              "href": "mailto://hello@justin.is",
+              "sameOrigin": false,
+              "contact": true,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Documentation index",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            }
+          ],
+          "forms": [],
+          "fontStatus": "loaded"
+        }
+      },
+      {
+        "width": 1440,
+        "path": "/Users/justin/repos/brand-review/2026-10-22/implementation-evidence/browser-qa/2026-10-22T19-15-27-994Z/docs-1440.png",
+        "dom": {
+          "title": "Justin Napolitano | Portfolio",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "documentWidth": 1440,
+          "body": {
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "27.2px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgb(244, 240, 232)"
+          },
+          "headings": [
+            {
+              "tag": "H1",
+              "text": "Living docs for data playbooks",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "28px",
+              "fontWeight": "400",
+              "lineHeight": "36.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Field notes plus reproducible recipes",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Stacks, experiments, and routines",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Automation",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Datascience",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Static",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Devtools",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Latex",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Climbing",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Personal",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Latest working memos",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Latest commits from justin-napolitano",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Need extra annotations or missing context?",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          ],
+          "overflowCandidates": [],
+          "links": [
+            {
+              "label": "Docs",
+              "href": "/",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Index",
+              "href": "/",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Archive",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Contact",
+              "href": "mailto://hello@justin.is",
+              "sameOrigin": false,
+              "contact": true,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Browse the docs",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Email for support",
+              "href": "mailto://hello@justin.is",
+              "sameOrigin": false,
+              "contact": true,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "View full archive \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Java Workflow for Neo4j Meta-Relationships Management",
+              "href": "/projects/github-supreme-court-meta-relationships",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "CoxOil Project Overview and Implementation Details",
+              "href": "/projects/github-coxoil",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Automated Documentation and Deployment for Energy Site",
+              "href": "/projects/github-gas-jnapolitano-io",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Browse changelog \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/de4c5572e8585a27774332915bb2020895cb364b",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/0117a4fb0847e1753b73a31a97d1da37bb40ef21",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/f45bc27362779d63bab61e62ccf5ed6e0d00ae4e",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/3463a28f6cbb1014cddf736efb3dd1773410429b",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/7c8d96211f98b4e2a49c427893993910402b0019",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/eb37aa150234e5b3e80881a91bb698f67e1e93e7",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/5512e634133cc26d12b48ebd8fcac55118b817e2",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/a2a6a014b270af68aa999c022b809104b153e044",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/1ae7c7a8c5158c53ac50829c8f186401c055af76",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/9fa6f75d6c286572b65f23a33af48ee5a877bf1a",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "Request an update",
+              "href": "mailto://hello@justin.is",
+              "sameOrigin": false,
+              "contact": true,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Documentation index",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            }
+          ],
+          "forms": [],
+          "fontStatus": "loaded"
+        }
+      },
+      {
+        "width": 320,
+        "path": "/Users/justin/repos/brand-review/2026-10-22/implementation-evidence/browser-qa/2026-10-22T19-15-27-994Z/docs-320.png",
+        "dom": {
+          "title": "Justin Napolitano | Portfolio",
+          "viewport": {
+            "width": 320,
+            "height": 900
+          },
+          "documentWidth": 320,
+          "body": {
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "27.2px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgb(244, 240, 232)"
+          },
+          "headings": [
+            {
+              "tag": "H1",
+              "text": "Living docs for data playbooks",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "28px",
+              "fontWeight": "400",
+              "lineHeight": "36.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Field notes plus reproducible recipes",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Stacks, experiments, and routines",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Automation",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Datascience",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Static",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Devtools",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Latex",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Climbing",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H3",
+              "text": "Personal",
+              "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+              "fontSize": "21px",
+              "fontWeight": "500",
+              "lineHeight": "29.4px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Latest working memos",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Latest commits from justin-napolitano",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            {
+              "tag": "H2",
+              "text": "Need extra annotations or missing context?",
+              "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "33.6px",
+              "color": "rgb(37, 37, 31)",
+              "backgroundColor": "rgba(0, 0, 0, 0)"
+            }
+          ],
+          "overflowCandidates": [],
+          "links": [
+            {
+              "label": "Docs",
+              "href": "/",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Index",
+              "href": "/",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Archive",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Contact",
+              "href": "mailto://hello@justin.is",
+              "sameOrigin": false,
+              "contact": true,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Browse the docs",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Email for support",
+              "href": "mailto://hello@justin.is",
+              "sameOrigin": false,
+              "contact": true,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "View full archive \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Explore \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Java Workflow for Neo4j Meta-Relationships Management",
+              "href": "/projects/github-supreme-court-meta-relationships",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "CoxOil Project Overview and Implementation Details",
+              "href": "/projects/github-coxoil",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Automated Documentation and Deployment for Energy Site",
+              "href": "/projects/github-gas-jnapolitano-io",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Browse changelog \u2192",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/de4c5572e8585a27774332915bb2020895cb364b",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/0117a4fb0847e1753b73a31a97d1da37bb40ef21",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/f45bc27362779d63bab61e62ccf5ed6e0d00ae4e",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/3463a28f6cbb1014cddf736efb3dd1773410429b",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/7c8d96211f98b4e2a49c427893993910402b0019",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/eb37aa150234e5b3e80881a91bb698f67e1e93e7",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/5512e634133cc26d12b48ebd8fcac55118b817e2",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/a2a6a014b270af68aa999c022b809104b153e044",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/1ae7c7a8c5158c53ac50829c8f186401c055af76",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "View \u2192",
+              "href": "https://github.com/justin-napolitano/camping-trip/commit/9fa6f75d6c286572b65f23a33af48ee5a877bf1a",
+              "sameOrigin": false,
+              "contact": false,
+              "target": "_blank",
+              "rel": "noreferrer"
+            },
+            {
+              "label": "Request an update",
+              "href": "mailto://hello@justin.is",
+              "sameOrigin": false,
+              "contact": true,
+              "target": "",
+              "rel": ""
+            },
+            {
+              "label": "Documentation index",
+              "href": "/projects",
+              "sameOrigin": true,
+              "contact": false,
+              "target": "",
+              "rel": ""
+            }
+          ],
+          "forms": [],
+          "fontStatus": "loaded"
+        }
+      }
+    ],
+    "console": [],
+    "pageErrors": [],
+    "routeChecks": [
+      {
+        "path": "/projects",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "path": "/projects/github-python-rss-reader",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8"
+      }
+    ],
+    "visualQa": "pending human comparison",
+    "navigation": {
+      "status": 200,
+      "path": "/"
+    },
+    "syntheticLogin": {
+      "attempted": false
+    },
+    "zoomReflowApproximation": {
+      "label": "1440px display at 200% effective CSS viewport; native zoom still needs review",
+      "dom": {
+        "title": "Justin Napolitano | Portfolio",
+        "viewport": {
+          "width": 720,
+          "height": 450
+        },
+        "documentWidth": 720,
+        "body": {
+          "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "27.2px",
+          "color": "rgb(37, 37, 31)",
+          "backgroundColor": "rgb(244, 240, 232)"
+        },
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Living docs for data playbooks",
+            "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+            "fontSize": "28px",
+            "fontWeight": "400",
+            "lineHeight": "36.4px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "H2",
+            "text": "Field notes plus reproducible recipes",
+            "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "33.6px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "H2",
+            "text": "Stacks, experiments, and routines",
+            "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "33.6px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "H3",
+            "text": "Automation",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "21px",
+            "fontWeight": "500",
+            "lineHeight": "29.4px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "H3",
+            "text": "Datascience",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "21px",
+            "fontWeight": "500",
+            "lineHeight": "29.4px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "H3",
+            "text": "Static",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "21px",
+            "fontWeight": "500",
+            "lineHeight": "29.4px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "H3",
+            "text": "Devtools",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "21px",
+            "fontWeight": "500",
+            "lineHeight": "29.4px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "H3",
+            "text": "Latex",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "21px",
+            "fontWeight": "500",
+            "lineHeight": "29.4px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "H3",
+            "text": "Climbing",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "21px",
+            "fontWeight": "500",
+            "lineHeight": "29.4px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "H3",
+            "text": "Personal",
+            "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "fontSize": "21px",
+            "fontWeight": "500",
+            "lineHeight": "29.4px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "H2",
+            "text": "Latest working memos",
+            "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "33.6px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "H2",
+            "text": "Latest commits from justin-napolitano",
+            "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "33.6px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "H2",
+            "text": "Need extra annotations or missing context?",
+            "fontFamily": "\"Source Serif 4\", Fraunces, Georgia, serif",
+            "fontSize": "24px",
+            "fontWeight": "400",
+            "lineHeight": "33.6px",
+            "color": "rgb(37, 37, 31)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflowCandidates": [],
+        "links": [
+          {
+            "label": "Docs",
+            "href": "/",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Index",
+            "href": "/",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Archive",
+            "href": "/projects",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Contact",
+            "href": "mailto://hello@justin.is",
+            "sameOrigin": false,
+            "contact": true,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Browse the docs",
+            "href": "/projects",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Email for support",
+            "href": "mailto://hello@justin.is",
+            "sameOrigin": false,
+            "contact": true,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "View full archive \u2192",
+            "href": "/projects",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Explore \u2192",
+            "href": "/projects",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Explore \u2192",
+            "href": "/projects",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Explore \u2192",
+            "href": "/projects",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Explore \u2192",
+            "href": "/projects",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Explore \u2192",
+            "href": "/projects",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Explore \u2192",
+            "href": "/projects",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Explore \u2192",
+            "href": "/projects",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Java Workflow for Neo4j Meta-Relationships Management",
+            "href": "/projects/github-supreme-court-meta-relationships",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "CoxOil Project Overview and Implementation Details",
+            "href": "/projects/github-coxoil",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Automated Documentation and Deployment for Energy Site",
+            "href": "/projects/github-gas-jnapolitano-io",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Browse changelog \u2192",
+            "href": "/projects",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "View \u2192",
+            "href": "https://github.com/justin-napolitano/camping-trip/commit/de4c5572e8585a27774332915bb2020895cb364b",
+            "sameOrigin": false,
+            "contact": false,
+            "target": "_blank",
+            "rel": "noreferrer"
+          },
+          {
+            "label": "View \u2192",
+            "href": "https://github.com/justin-napolitano/camping-trip/commit/0117a4fb0847e1753b73a31a97d1da37bb40ef21",
+            "sameOrigin": false,
+            "contact": false,
+            "target": "_blank",
+            "rel": "noreferrer"
+          },
+          {
+            "label": "View \u2192",
+            "href": "https://github.com/justin-napolitano/camping-trip/commit/f45bc27362779d63bab61e62ccf5ed6e0d00ae4e",
+            "sameOrigin": false,
+            "contact": false,
+            "target": "_blank",
+            "rel": "noreferrer"
+          },
+          {
+            "label": "View \u2192",
+            "href": "https://github.com/justin-napolitano/camping-trip/commit/3463a28f6cbb1014cddf736efb3dd1773410429b",
+            "sameOrigin": false,
+            "contact": false,
+            "target": "_blank",
+            "rel": "noreferrer"
+          },
+          {
+            "label": "View \u2192",
+            "href": "https://github.com/justin-napolitano/camping-trip/commit/7c8d96211f98b4e2a49c427893993910402b0019",
+            "sameOrigin": false,
+            "contact": false,
+            "target": "_blank",
+            "rel": "noreferrer"
+          },
+          {
+            "label": "View \u2192",
+            "href": "https://github.com/justin-napolitano/camping-trip/commit/eb37aa150234e5b3e80881a91bb698f67e1e93e7",
+            "sameOrigin": false,
+            "contact": false,
+            "target": "_blank",
+            "rel": "noreferrer"
+          },
+          {
+            "label": "View \u2192",
+            "href": "https://github.com/justin-napolitano/camping-trip/commit/5512e634133cc26d12b48ebd8fcac55118b817e2",
+            "sameOrigin": false,
+            "contact": false,
+            "target": "_blank",
+            "rel": "noreferrer"
+          },
+          {
+            "label": "View \u2192",
+            "href": "https://github.com/justin-napolitano/camping-trip/commit/a2a6a014b270af68aa999c022b809104b153e044",
+            "sameOrigin": false,
+            "contact": false,
+            "target": "_blank",
+            "rel": "noreferrer"
+          },
+          {
+            "label": "View \u2192",
+            "href": "https://github.com/justin-napolitano/camping-trip/commit/1ae7c7a8c5158c53ac50829c8f186401c055af76",
+            "sameOrigin": false,
+            "contact": false,
+            "target": "_blank",
+            "rel": "noreferrer"
+          },
+          {
+            "label": "View \u2192",
+            "href": "https://github.com/justin-napolitano/camping-trip/commit/9fa6f75d6c286572b65f23a33af48ee5a877bf1a",
+            "sameOrigin": false,
+            "contact": false,
+            "target": "_blank",
+            "rel": "noreferrer"
+          },
+          {
+            "label": "Request an update",
+            "href": "mailto://hello@justin.is",
+            "sameOrigin": false,
+            "contact": true,
+            "target": "",
+            "rel": ""
+          },
+          {
+            "label": "Documentation index",
+            "href": "/projects",
+            "sameOrigin": true,
+            "contact": false,
+            "target": "",
+            "rel": ""
+          }
+        ],
+        "forms": [],
+        "fontStatus": "loaded"
+      }
+    },
+    "keyboard": [
+      {
+        "tag": "A",
+        "label": "Docs",
+        "outline": "rgb(83, 101, 122) solid 2px",
+        "boxShadow": "none",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "label": "Index",
+        "outline": "rgb(83, 101, 122) solid 2px",
+        "boxShadow": "none",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "label": "Archive",
+        "outline": "rgb(83, 101, 122) solid 2px",
+        "boxShadow": "none",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "label": "Contact",
+        "outline": "rgb(83, 101, 122) solid 2px",
+        "boxShadow": "none",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "label": "Browse the docs",
+        "outline": "rgb(83, 101, 122) solid 2px",
+        "boxShadow": "none",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "label": "Email for support",
+        "outline": "rgb(83, 101, 122) solid 2px",
+        "boxShadow": "none",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "label": "View full archive \u2192",
+        "outline": "rgb(83, 101, 122) solid 2px",
+        "boxShadow": "none",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "label": "Explore \u2192",
+        "outline": "rgb(83, 101, 122) solid 2px",
+        "boxShadow": "none",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "label": "Explore \u2192",
+        "outline": "rgb(83, 101, 122) solid 2px",
+        "boxShadow": "none",
+        "inViewport": true
+      },
+      {
+        "tag": "A",
+        "label": "Explore \u2192",
+        "outline": "rgb(83, 101, 122) solid 2px",
+        "boxShadow": "none",
+        "inViewport": true
+      }
+    ],
+    "samePageNavigation": {
+      "checked": false,
+      "reason": "No visible same-page navigation anchor"
+    },
+    "domInspection": "captured, requires review; no automatic visual pass"
+  },
+  "details": {
+    "name": "docs",
+    "searchFields": [],
+    "fonts": {
+      "inter": true,
+      "serif": true
+    },
+    "nativeKeyboardZoom": {
+      "before": {
+        "width": 1440,
+        "dpr": 1
+      },
+      "after": {
+        "width": 1440,
+        "dpr": 1
+      },
+      "changed": false
+    },
+    "effective200Zoom": {
+      "cssViewport": 720,
+      "deviceScale": 2,
+      "documentWidth": 720
+    }
+  },
+  "interactions": {
+    "name": "docs",
+    "errors": [],
+    "archive": {
+      "width": 390,
+      "documentWidth": 390,
+      "heading": "Every project in one place",
+      "headings": [
+        {
+          "text": "Every project in one place",
+          "fontSize": "28px"
+        },
+        {
+          "text": "I've probably documented a similar workflow",
+          "fontSize": "24px"
+        }
+      ],
+      "controls": []
+    },
+    "articleHref": "/projects/github-supreme-court-meta-relationships",
+    "article": {
+      "width": 390,
+      "documentWidth": 390,
+      "heading": "Java Workflow for Neo4j Meta-Relationships Management",
+      "headings": [
+        {
+          "text": "Java Workflow for Neo4j Meta-Relationships Management",
+          "fontSize": "28px"
+        },
+        {
+          "text": "Features",
+          "fontSize": "24px"
+        },
+        {
+          "text": "Tech Stack",
+          "fontSize": "24px"
+        }
+      ],
+      "controls": [],
+      "hasBody": 1
+    },
+    "article320": {
+      "width": 320,
+      "documentWidth": 320,
+      "heading": "Java Workflow for Neo4j Meta-Relationships Management",
+      "headings": [
+        {
+          "text": "Java Workflow for Neo4j Meta-Relationships Management",
+          "fontSize": "28px"
+        },
+        {
+          "text": "Features",
+          "fontSize": "24px"
+        },
+        {
+          "text": "Tech Stack",
+          "fontSize": "24px"
+        }
+      ],
+      "controls": []
+    }
+  }
+}

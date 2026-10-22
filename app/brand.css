@@ -1,0 +1,41 @@
+@font-face { font-family: Inter; src: url("/fonts/Inter-Variable.ttf") format("truetype"); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Source Serif 4"; src: url("/fonts/SourceSerif4-Variable.ttf") format("truetype"); font-weight: 200 900; font-style: normal; font-display: swap; }
+:root { --bg: #f4f0e8; --upper-bg: #f4f0e8; --ink: #25251f; --ink-soft: #5b5b55; --ink-mute: #62625c; --accent: #53657a; --accent-soft: #e7e4dd; --line: #cbc8bf; --line-strong: #9b988f; --shadow: none; --radius: 0; --radius-md: 0; --page-max: 1000px; --font-space-grotesk: Inter; --font-fraunces: "Source Serif 4"; --font-geist-mono: ui-monospace; }
+html, body { font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: 16px; }
+body::after, .hero::after { display: none; }
+.brand-header { width: min(1000px, calc(100% - 48px)); margin: 0 auto; padding: 28px 0 22px; border-bottom: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.brand-title { font-size: 22px; font-weight: 600; letter-spacing: -.025em; }
+.brand-header nav { display: flex; gap: 24px; flex-wrap: wrap; font-size: 15px; }
+.brand-header nav a { display: inline-flex; min-height: 44px; align-items: center; }
+.page-shell { width: min(1000px, calc(100% - 48px)); padding: 28px 0 64px; }
+.hero { min-height: 0; padding: 0 0 28px; border: 0; border-bottom: 1px solid var(--line); box-shadow: none; border-radius: 0; background: transparent; gap: 24px; }
+.hero h1, h1 { font-size: 28px; line-height: 1.3; font-weight: 400; }
+h2 { font-size: 24px; line-height: 1.4; font-weight: 400; }
+h3, .project-card h3 { font-size: 21px; line-height: 1.4; font-weight: 500; }
+.hero__lead { font-size: 16px; line-height: 1.7; }
+.hero__note { background: transparent; padding: 0; border-radius: 0; color: var(--ink-soft); }
+.hero-stat__value { font-size: 24px; font-weight: 400; }
+.hero-stat { border-radius: 0; box-shadow: none; background: transparent; }
+.eyebrow { text-transform: none; letter-spacing: normal; font-size: 14px; color: var(--ink-soft); }
+.section { margin-top: 32px; }
+.doc-nav, .project-grid, .project-grid--dense { display: grid; grid-template-columns: 1fr; gap: 0; }
+.doc-card, .project-card, .doc-panel, .doc-panel--accent, .cta, .doc-overview__callouts > div { border-radius: 0; box-shadow: none; background: transparent; border: 0; border-bottom: 1px solid var(--line); padding: 24px 0; transform: none; }
+.doc-card:hover, .project-card:hover { transform: none; box-shadow: none; background: transparent; }
+.doc-card__annotation, .doc-card__signal, .doc-card__badge, .stack-list__pill, .doc-card__tag { border-radius: 2px; background: transparent; color: var(--ink-soft); letter-spacing: normal; text-transform: none; }
+.button { min-height: 44px; border-radius: 2px; font-weight: 500; letter-spacing: normal; text-transform: none; }
+.button:hover { transform: none; }
+.prose { max-width: 76ch; font-size: 16px; overflow-wrap: anywhere; }
+.prose h2 { font-size: 24px; }
+.prose h3 { font-size: 20px; }
+.prose pre, .prose table { max-width: 100%; overflow: auto; }
+.prose table { display: block; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (max-width: 520px) { .brand-header, .page-shell { width: calc(100% - 32px); } .brand-header { flex-wrap: wrap; padding-top: 20px; } .brand-header nav { gap: 20px; } .hero { display: block; } .hero__meta { margin-top: 20px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
+
+/* Browser QA: retain real metrics/callouts without decorative nested panels. */
+.hero__note { border: 0; letter-spacing: normal; text-transform: none; font-size: 14px; }
+.hero-stat { border: 0; border-bottom: 1px solid var(--line); padding: 12px 0; }
+.hero-stat__label { letter-spacing: normal; text-transform: none; }
+.doc-overview__callouts { padding: 0; border: 0; background: transparent; }
+.doc-overview__list li::before { content: none; }

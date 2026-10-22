@@ -12,7 +12,7 @@ export async function generateStaticParams() {
   return entries.map((entry) => ({ slug: entry.id }));
 }
 
-type ParamsProps = { params: Params } | { params: Promise<Params> };
+type ParamsProps = { params: Promise<Params> };
 
 async function resolveParams(params: Params | Promise<Params>): Promise<Params> {
   if (typeof (params as Promise<Params>).then === "function") {
