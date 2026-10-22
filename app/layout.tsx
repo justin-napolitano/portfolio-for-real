@@ -1,24 +1,8 @@
 import type { Metadata } from "next";
-import { Fraunces, Geist_Mono, Space_Grotesk } from "next/font/google";
+import Link from "next/link";
 import "../styles/reset.css";
 import "./globals.css";
-
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-});
-
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
-  subsets: ["latin"],
-  weight: ["400", "600"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import "./brand.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://portfolio.local"),
@@ -37,7 +21,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${spaceGrotesk.variable} ${fraunces.variable} ${geistMono.variable}`}>
+      <body>
+        <header className="brand-header">
+          <Link className="brand-title" href="/">Docs</Link>
+          <nav aria-label="Primary">
+            <Link href="/">Index</Link>
+            <Link href="/projects">Archive</Link>
+            <a href="mailto:hello@justin.is">Contact</a>
+          </nav>
+        </header>
         {children}
       </body>
     </html>
