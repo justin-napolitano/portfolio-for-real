@@ -39,3 +39,14 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .hero-stat__label { letter-spacing: normal; text-transform: none; }
 .doc-overview__callouts { padding: 0; border: 0; background: transparent; }
 .doc-overview__list li::before { content: none; }
+
+/* Native scroll canvas is green; all existing page surfaces stay paper. */
+html, body {
+  min-height: 100svh;
+  background: #356349;
+  overscroll-behavior: auto;
+}
+.brand-document {
+  min-height: 100svh;
+  background: var(--bg);
+}
