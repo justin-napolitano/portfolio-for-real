@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "eslint",
     "db:migrate:entries": "tsx scripts/migrate-entries-to-posts.ts",
-    "update:commits": "tsx scripts/update-commit-log.ts"
+    "update:commits": "tsx scripts/update-commit-log.ts",
+    "db:migrate:schema": "tsx scripts/migrate-schema.ts",
+    "test:schema": "tsx --test tests/schema-readiness.test.ts",
+    "db:check": "tsx scripts/check-schema.ts"
   },
   "dependencies": {
     "@vercel/postgres": "^0.10.0",
