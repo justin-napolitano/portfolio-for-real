@@ -32,3 +32,10 @@ h3, .project-card h3 { font-size: 21px; line-height: 1.4; font-weight: 500; }
 a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 @media (max-width: 520px) { .brand-header, .page-shell { width: calc(100% - 32px); } .brand-header { flex-wrap: wrap; padding-top: 20px; } .brand-header nav { gap: 20px; } .hero { display: block; } .hero__meta { margin-top: 20px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
+
+/* Browser QA: retain real metrics/callouts without decorative nested panels. */
+.hero__note { border: 0; letter-spacing: normal; text-transform: none; font-size: 14px; }
+.hero-stat { border: 0; border-bottom: 1px solid var(--line); padding: 12px 0; }
+.hero-stat__label { letter-spacing: normal; text-transform: none; }
+.doc-overview__callouts { padding: 0; border: 0; background: transparent; }
+.doc-overview__list li::before { content: none; }
