@@ -43,3 +43,21 @@ npm run build -- --webpack: passed, 207 routes. Configured DB readiness is read-
 ## Follow-up polish
 
 P3: native browser-UI zoom can be checked manually beyond the recorded effective200% reflow. No further cosmetic expansion is required for this rollout.
+
+## 2026-10-22 scoped follow-up — native canvas
+
+final result: passed
+
+User explicitly corrected gray overscroll to green. Native html/bodycanvas and theme-color now#356349. Real fullwidth .brand-document wrapper retains existing#F4F0E8 paper. min-height100svh; overscroll-behavior:auto. No JS animation, fake bounce, scroll locking or blanket page recolor.
+
+Source truth is the user’s latest explicit refinement plus the previously approved08 Index/Simplified board. Fresh live1440px/390px production screenshots captured by coordinator serve as the before baseline. Scoped rendered implementation was compared alongside the actual before image in one combined PNG and inspected at390px. Both desktop inputs have1440CSSpx width atDSF1; comparison columns normalize to700px width and crop the top region. Full-resolution desktop/mobile files retain text for focused reading. Existing content is retained rather than substituting board sample copy.
+
+Evidence: `docs/branding/overscroll-qa/comparison.png`, `render-390.png`, `render-768.png`, `render-1440.png`, `render-320.png`, `render-720.png`, `desktop-top.png`, `checks.json`. Public light state. Approved Chromium fallback used.320/390/768/1440/720CSSpx all have document width equal viewport, no page/console errors.720px is a narrow reflow check, not a native200%zoom claim.
+
+Required fidelity surfaces: Inter/SourceSerif families and modest hierarchy preserved; typography checked visually plus computed styles. Spacing/rules retain the simple Index rhythm. Colors checked via actual computed styles. No media/assets/icons added or replaced; real diagrams/content/media and sharp local fonts remain. Copy/project records/routes retained. No leading title character. No P0/P1/P2 findings remain within this bounded follow-up.
+
+Read-only db:check passed before webpack production build;207pages built. Archive navigation passed, scrollY300 reached with native ordinary scroll. No runtime/auth/schema/dependency/content changes or migration commands.
+
+Docs native root/body now rgb(53,99,73), surface rgb(244,240,232), theme#356349; existing visible page presentation stays intact. Chromium computed backgrounds/scrolling do not prove native macOS/Safari elastic overscroll. That platform behavior remains an explicit manual test limitation; no fake bounce or warning masking was used.
+
+Checklist: scoped source change complete; actual build complete; responsive/computed-state checks complete; combined visual comparison complete; deployment held for coordinator review.

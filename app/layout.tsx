@@ -1,8 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import "../styles/reset.css";
 import "./globals.css";
 import "./brand.css";
+
+export const viewport: Viewport = { themeColor: "#356349" };
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://portfolio.local"),
@@ -22,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <div className="brand-document">
         <header className="brand-header">
           <Link className="brand-title" href="/">Docs</Link>
           <nav aria-label="Primary">
@@ -31,6 +34,7 @@ export default function RootLayout({
           </nav>
         </header>
         {children}
+        </div>
       </body>
     </html>
   );

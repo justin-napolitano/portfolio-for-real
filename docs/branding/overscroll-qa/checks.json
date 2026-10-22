@@ -1,0 +1,67 @@
+{
+  "repo": "portfolio-for-real",
+  "url": "http://127.0.0.1:4693/",
+  "errors": [],
+  "captures": [
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "html": "rgb(53, 99, 73)",
+      "body": "rgb(53, 99, 73)",
+      "canvas": "auto",
+      "bodyMinHeight": "900px",
+      "surface": "rgb(244, 240, 232)",
+      "theme": "#356349",
+      "summary": null
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "html": "rgb(53, 99, 73)",
+      "body": "rgb(53, 99, 73)",
+      "canvas": "auto",
+      "bodyMinHeight": "900px",
+      "surface": "rgb(244, 240, 232)",
+      "theme": "#356349",
+      "summary": null
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "html": "rgb(53, 99, 73)",
+      "body": "rgb(53, 99, 73)",
+      "canvas": "auto",
+      "bodyMinHeight": "900px",
+      "surface": "rgb(244, 240, 232)",
+      "theme": "#356349",
+      "summary": null
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "html": "rgb(53, 99, 73)",
+      "body": "rgb(53, 99, 73)",
+      "canvas": "auto",
+      "bodyMinHeight": "900px",
+      "surface": "rgb(244, 240, 232)",
+      "theme": "#356349",
+      "summary": null
+    },
+    {
+      "width": 720,
+      "scrollWidth": 720,
+      "html": "rgb(53, 99, 73)",
+      "body": "rgb(53, 99, 73)",
+      "canvas": "auto",
+      "bodyMinHeight": "900px",
+      "surface": "rgb(244, 240, 232)",
+      "theme": "#356349",
+      "summary": null
+    }
+  ],
+  "archiveStatus": 200,
+  "scroll": {
+    "y": 300,
+    "max": 56095
+  }
+}
