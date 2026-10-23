@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local Python sync/test caches are not publication artifacts.
+__pycache__/
+*.pyc

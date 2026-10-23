@@ -11,18 +11,24 @@
     "update:commits": "tsx scripts/update-commit-log.ts",
     "db:migrate:schema": "tsx scripts/migrate-schema.ts",
     "test:schema": "tsx --test tests/schema-readiness.test.ts",
-    "db:check": "tsx scripts/check-schema.ts"
+    "db:check": "tsx scripts/check-schema.ts",
+    "docs:sync": "python3 scripts/sync-docs.py",
+    "docs:check": "python3 scripts/check-docs.py",
+    "docs:test": "python3 -m unittest discover -s tests -p test_sync_docs.py && tsx --test tests/federated-docs.test.tsx"
   },
   "dependencies": {
     "@vercel/postgres": "^0.10.0",
     "dotenv": "^17.2.3",
     "fuse.js": "^7.1.0",
+    "github-slugger": "2.0.0",
     "gray-matter": "^4.0.3",
     "next": "16.4.1",
     "next-mdx-remote": "6.0.0",
     "react": "19.2.9",
     "react-dom": "19.2.9",
-    "rehype-highlight": "^7.0.2"
+    "react-markdown": "10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "4.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import ProjectDetail from "@/components/ProjectDetail";
 import { fetchEntryBySlug, fetchPublishedEntryMetas } from "@/lib/portfolioEntries";
@@ -44,6 +45,7 @@ export default async function ProjectPage({ params }: ParamsProps) {
 
   return (
     <main className="page-shell page-shell--narrow">
+      <p>This is an archived project page. <Link href="/docs">Browse current repository documentation.</Link></p>
       <ProjectDetail entry={entry} />
     </main>
   );
