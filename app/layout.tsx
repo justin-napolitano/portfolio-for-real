@@ -3,17 +3,18 @@ import Link from "next/link";
 import "../styles/reset.css";
 import "./globals.css";
 import "./brand.css";
+import "./wiki.css";
 
 export const viewport: Viewport = { themeColor: "#356349" };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://portfolio.local"),
+  metadataBase: new URL("https://docs.jnap.me"),
   title: {
-    default: "Justin Napolitano | Portfolio",
+    default: "Docs | Justin Napolitano",
     template: "%s | Justin Napolitano",
   },
   description:
-    "Case studies, experiments, and prototypes spanning civic data, geospatial ops, and workflow design.",
+    "Repository-owned documentation, browsable and searchable in one place.",
 };
 
 export default function RootLayout({
@@ -29,8 +30,8 @@ export default function RootLayout({
           <Link className="brand-title" href="/">Docs</Link>
           <nav aria-label="Primary">
             <Link href="/">Index</Link>
-            <Link href="/projects">Archive</Link>
-            <a href="mailto:hello@justin.is">Contact</a>
+            <Link href="/docs">Repositories</Link>
+            <Link href="/#search">Search</Link>
           </nav>
         </header>
         {children}
