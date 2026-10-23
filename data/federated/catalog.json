@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T02:29:37.760303+00:00",
+  "generatedAt": "2026-10-23T02:48:43.029948+00:00",
   "sources": [
     {
       "owner": "justin-napolitano",
@@ -73,15 +73,15 @@
       "owner": "justin-napolitano",
       "repo": "portfolio-for-real",
       "branch": "main",
-      "commit": "c3fc2e848d46af511994c80b66c29190e84c3f64",
-      "commitDate": "2026-10-22T23:00:36Z",
+      "commit": "2aaf2698b6d9a1c7e54afcf3d44073798f1eb892",
+      "commitDate": "2026-10-23T02:48:20Z",
       "topics": [
         "Developer tools",
         "Websites"
       ],
-      "contentHash": "edcd5bc07770bb5c310e500401f3b7162afed082d93f5d641821135534d95997",
-      "syncedAt": "2026-10-23T02:29:37.760303+00:00",
-      "documentCount": 5
+      "contentHash": "6bc218064b3315c99fc14979532d318e9a2954215197393afbe4c53d1d1fcd47",
+      "syncedAt": "2026-10-23T02:48:43.029948+00:00",
+      "documentCount": 6
     }
   ],
   "documents": [
@@ -1392,10 +1392,18 @@
     {
       "repo": "portfolio-for-real",
       "path": "README.md",
-      "title": "or",
+      "title": "Repository documentation wiki",
       "href": "/docs/portfolio-for-real",
-      "body": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n\n## Getting Started\n\nFirst, run the development server:\n\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\n\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\n\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n\n## Learn More\n\nTo learn more about Next.js, take a look at the following resources:\n\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\n\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n\n## Commit log data refresh\n\nThe home page shows the 10 most recent commits pulled from your GitHub account. Set the following environment variables so the script/API can call GitHub safely:\n\n- `GITHUB_TOKEN` — personal access token with `repo` scope (or `public_repo` if you only need public commits)\n- `GITHUB_USERNAME` — the username to query (defaults to `$USER` if omitted)\n- `CRON_SECRET` — shared secret passed as `?key=` to guard the integration endpoint\n- Variables can live in `.env.local`; both the script and API route load that file automatically before falling back to your shell env.\n\n### Local/manual refresh\n\n```bash\nnpm run update:commits\n```\n\nThis command writes `data/recent-commits.json`, which the app uses as a local fallback if the database is empty.\n\n### Hosted refresh (Vercel + GitHub Actions)\n\nDeploy the site with the env vars above. Then configure the provided workflow (`.github/workflows/commit-log-sync.yml`) by setting the `CRON_SECRET` repository secret (and optional repo variable `DOCS_ORIGIN`, defaults to `https://docs.jnap.me`). The workflow curls:\n\n```bash\nGET https://docs.jnap.me/api/integrations/github-commit-log?key=$CRON_SECRET\n```\n\nThat endpoint fetches commits from GitHub, stores them in Postgres, and the home page renders the latest rows at request time. Run it once a day (or as frequently as you like) to keep the history fresh.\n",
+      "body": "# Repository documentation wiki\n\nThe public documentation at https://docs.jnap.me is a reading layer over repository-owned Markdown. Edit the original file using **Edit source** on any page; do not edit the generated catalog.\n\n## Publish documentation\n\n1. Write a root `README.md` or Markdown/MDX file under `docs/` in a public repository.\n2. Add the repository to `docs-sources.json` if it is not already listed. Review its publishing scope first.\n3. Merge source changes. Sync checks every six hours, or run **Actions → Sync repository documentation → Run workflow**. GitHub schedules can be delayed.\n4. A changed snapshot is committed to `data/federated/catalog.json`; the connected Vercel project builds that commit.\n\nFrontmatter `draft: true`, `private: true`, `publish: false`, or `visibility: internal` prevents publication. Planning, governance, branding, and review evidence paths are excluded; see `scripts/sync-docs.py` for exact rules. Never rely on publication exclusions to make a public repository confidential.\n\n## Development\n\n```sh\nnpm ci\nnpm run docs:sync\nnpm run docs:check\nnpm run docs:test\nnpx tsc --noEmit\nnpm run build -- --webpack\nnpm run dev\n```\n\nPython 3.12 and Node 22 match CI. Sync uses the Python standard library. `GITHUB_TOKEN` is optional locally for public API rate limits; Actions uses its built-in token. The wiki builds and searches from the committed snapshot without a database or credentials.\n\nSee [federation and recovery](docs/federated-documentation.md). Legacy database-backed project detail URLs remain as a marked archive; `/projects` redirects to the wiki. Old commit-log integrations are retained for compatibility and do not supply wiki content.\n",
       "section": "Overview"
+    },
+    {
+      "repo": "portfolio-for-real",
+      "path": "docs/federated-documentation.md",
+      "title": "Federated documentation",
+      "href": "/docs/portfolio-for-real/docs/federated-documentation.md",
+      "body": "# Federated documentation\n\n## Source of truth\n\n`public repository → pinned GitHub revision → validated catalog → static pages and search → Vercel`\n\nSources are declared in `docs-sources.json`. Repository Markdown is canonical; the catalog is a generated publication artifact. Each page identifies its source path, immutable revision, sync date, and source edit link. Navigation groups documents by repository and folder. Full-text search supports repository and topic filters.\n\nThe workflow runs every six hours and supports manual dispatch. It checks repository identity and public visibility, pins the default branch revision, and atomically replaces the catalog after all available sources succeed. Removed files disappear on the next refresh. Private or missing repositories are withdrawn. Other fetch errors fail the job and preserve the previous complete snapshot. Published content may remain in Git history and deployment archives after withdrawal.\n\nContent hashes suppress commits for unrelated code changes. Unchanged documentation retains its previous pinned revision. Self-ingestion does not create an endless cycle of sync commits.\n\n## Rendering contract\n\nMarkdown supports GFM tables, task lists, fenced code, and stable heading anchors. Relative document links resolve locally where imported; other links point to pinned GitHub sources. Relative images use pinned raw GitHub URLs. Search indexes the same public snapshot.\n\nRaw HTML is skipped. MDX expressions and components never execute. Custom layouts, components, and generated API references require conversion in the owning repository. This importer does not copy whole websites or run source build commands.\n\n## Trust boundaries\n\nRepository content is untrusted. The importer never extracts archives, follows symlinks, executes scripts, or evaluates YAML/MDX. It permits bounded regular Markdown files at approved paths and caps compressed bytes, expanded bytes, members, document size, count, and total text. Traversal paths and unsafe link protocols are rejected. The renderer escapes Markdown and skips raw HTML. Remote images expose ordinary request metadata to their host and are not proxied into this origin.\n\nOnly explicitly listed public repositories publish. Private selected-projects and burdlytics_boilerplate are excluded. The token is sent only to GitHub's API. Readers need no credentials; there is no public write endpoint. Actions use pinned revisions. Only the sync job has write permission; it stages only the catalog and pushes normally without bypassing protection.\n\n## Operations and recovery\n\nAdd or remove a source through a reviewed config change; changes on main trigger sync. On failure, inspect Actions, correct the source/config, and rerun. The last complete snapshot remains usable. If branch protection prevents a push, use the repository-approved PR path rather than bypassing protection.\n\nCorrect publishing mistakes in the source, rerun sync, and verify deployment. For urgent withdrawal, remove the source from config and regenerate. A refresh cannot make published history secret. Revert a rendering change or restore the previous Vercel deployment for rollback; correct source mistakes before the next sync.\n\nAfter rollout verify workflow dispatch, generated commit, deployment readiness, search index, and a source page. A successful sync alone does not prove deployment.\n\n## Verification\n\nPython tests cover archive boundaries, publication opt-outs, visibility, deletions, idempotence, and atomic recovery. TypeScript tests cover links, images, anchors, code, GFM, and inert HTML/MDX. CI validates catalog, types, and production build. Browser checks cover search/filter/retry, navigation, provenance, missing pages, and narrow layouts.\n\nReferences: [react-markdown](https://github.com/remarkjs/react-markdown), [GFM](https://github.com/remarkjs/remark-gfm), [workflow permissions](https://docs.github.com/en/actions/tutorials/authenticate-with-github_token).\n",
+      "section": "docs"
     },
     {
       "repo": "portfolio-for-real",
