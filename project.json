@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "title": "Project log and documentation wiki",
+  "summary": "Repository-owned project history and documentation, collected into a searchable reading layer.",
+  "status": "maintained",
+  "topics": ["Developer tools", "Documentation", "Websites"],
+  "docs": {
+    "overview": "README.md",
+    "architecture": "docs/federated-documentation.md",
+    "setup": "docs/documentation-standard.md",
+    "operations": "docs/federated-documentation.md"
+  }
+}

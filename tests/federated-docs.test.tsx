@@ -41,3 +41,9 @@ test("GFM, repeated anchors and code fences render without executing HTML or MDX
   assert.doesNotMatch(html, /<script|onerror=|javascript:/);
   assert.equal((globalThis as Record<string, unknown>).compromised, undefined);
 });
+
+
+test("owner-local private rendering makes no remote image requests", () => {
+  const html = renderToStaticMarkup(<RepoMarkdown document={{ ...readme, body: "![Tracking](https://tracker.invalid/image.png)" }} source={source} documents={documents} sources={[source]} images={false} />);
+  assert.doesNotMatch(html, /<img|tracker\.invalid/);
+});

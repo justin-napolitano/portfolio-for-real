@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "title": "Project name",
+  "summary": "One sentence describing the problem and the project's purpose.",
+  "status": "in-progress",
+  "topics": ["Developer tools"],
+  "docs": {
+    "overview": "README.md"
+  }
+}

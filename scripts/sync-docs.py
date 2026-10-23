@@ -19,8 +19,8 @@ import re
 import tarfile
 import tempfile
 from urllib.error import HTTPError
-from urllib.parse import quote
-from urllib.request import Request, urlopen
+from urllib.parse import quote, urlparse
+from urllib.request import Request, urlopen, HTTPRedirectHandler, build_opener
 
 ROOT = Path(__file__).resolve().parents[1]
 MAX_ARCHIVE = 64 * 1024 * 1024
@@ -107,7 +107,19 @@ def github_json(endpoint: str) -> dict:
         return json.load(response)
 
 
-def fetch_source(spec: dict) -> dict | None:
+class ArchiveRedirect(HTTPRedirectHandler):
+    """Strip credentials from GitHub's signed archive redirects; reject other hosts."""
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        target = urlparse(newurl)
+        if target.scheme != 'https' or target.hostname not in {'api.github.com', 'codeload.github.com'}:
+            raise ValueError('Unexpected archive redirect')
+        redirected = super().redirect_request(req, fp, code, msg, headers, newurl)
+        if redirected is not None:
+            redirected.remove_header('Authorization')
+        return redirected
+
+
+def fetch_source(spec: dict, private: bool = False) -> dict | None:
     owner, repo = spec["owner"], spec["repo"]
     if not NAME.fullmatch(owner) or not NAME.fullmatch(repo):
         raise ValueError("Invalid source repository name")
@@ -118,7 +130,7 @@ def fetch_source(spec: dict) -> dict | None:
             print(f"Omitting unavailable source: {owner}/{repo}")
             return None
         raise
-    if metadata.get("private") is not False or metadata.get("visibility", "public") != "public":
+    if not private and (metadata.get("private") is not False or metadata.get("visibility", "public") != "public"):
         print(f"Omitting non-public source: {owner}/{repo}")
         return None
     # Do not follow a repository transfer into a different publishing identity.
@@ -131,7 +143,16 @@ def fetch_source(spec: dict) -> dict | None:
         raise ValueError("Invalid source commit")
     # Public codeload never receives the GitHub API token.
     request = Request(f"https://codeload.github.com/{owner}/{repo}/tar.gz/{commit}", headers={"User-Agent": "jnap-federated-docs"})
-    with urlopen(request, timeout=90) as response:
+    if private:
+        token = os.environ.get('GITHUB_TOKEN')
+        if not token:
+            raise ValueError('Private refresh requires authentication')
+        request = Request(f'https://api.github.com/repos/{owner}/{repo}/tarball/{commit}', headers={'User-Agent': 'jnap-federated-docs', 'Authorization': 'Bearer ' + token})
+        opener = build_opener(ArchiveRedirect())
+        response = opener.open(request, timeout=90)
+    else:
+        response = urlopen(request, timeout=90)
+    with response:
         compressed = response.read(MAX_ARCHIVE + 1)
     if len(compressed) > MAX_ARCHIVE:
         raise ValueError(f"Source archive too large: {repo}")
@@ -178,7 +199,9 @@ def create_snapshot(sources: list[dict], previous: dict | None = None) -> dict:
     return result
 
 
-def sync(config_path: Path, output: Path) -> dict:
+def sync(config_path: Path, output: Path, private: bool = False) -> dict:
+    if private and (output.resolve() == ROOT or ROOT in output.resolve().parents):
+        raise ValueError('Private snapshots must stay outside the public repository')
     config = json.loads(config_path.read_text())
     if config.get("version") != 1 or not isinstance(config.get("sources"), list):
         raise ValueError("Invalid docs source manifest")
@@ -187,11 +210,13 @@ def sync(config_path: Path, output: Path) -> dict:
         raise ValueError("Repository route identities must be unique")
     sources = []
     for spec in config["sources"]:
-        source = fetch_source(spec)
+        source = fetch_source(spec, private=True) if private else fetch_source(spec)
         if source is not None:
             sources.append(source)
     previous = json.loads(output.read_text()) if output.exists() else None
     snapshot = create_snapshot(sources, previous)
+    if private:
+        snapshot['audience'] = 'private'
     serialized = json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n"
     output.parent.mkdir(parents=True, exist_ok=True)
     if not output.exists() or output.read_text() != serialized:
@@ -206,9 +231,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--config", type=Path, default=ROOT / "docs-sources.json")
     parser.add_argument("--output", type=Path, default=ROOT / "data/federated/catalog.json")
+    parser.add_argument("--private", action="store_true", help="Owner-local private snapshot; output must be outside this repository")
     args = parser.parse_args()
     try:
-        snapshot = sync(args.config, args.output)
+        snapshot = sync(args.config, args.output, args.private)
         print(json.dumps({"ok": True, "sources": len(snapshot["sources"]), "documents": len(snapshot["documents"]), "generatedAt": snapshot["generatedAt"]}))
     except Exception as error:
         # Do not dump upstream response bodies or authorization headers.

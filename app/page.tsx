@@ -9,6 +9,7 @@ export default function HomePage() {
     <header className="wiki-intro"><p className="wiki-meta">Repository documentation</p><h1>One place for the docs.</h1>
       <p>Browse and search documentation across my projects. Each repository owns its pages; updates flow here automatically.</p>
       <p className="wiki-meta">{catalog.sources.length} repositories · {catalog.documents.length} documents</p></header>
+    <p><Link href="/log">Explore the full project log →</Link></p>
     <DocsSearch />
     <section className="wiki-repositories" aria-labelledby="repositories-title"><h2 id="repositories-title">Repositories</h2>
       {catalog.sources.length ? <ul>{catalog.sources.map(source => <li key={source.repo}>

@@ -1,11 +1,59 @@
 {
   "version": 1,
   "sources": [
-    { "owner": "justin-napolitano", "repo": "jaysearch", "topics": ["Research", "Developer tools"] },
-    { "owner": "justin-napolitano", "repo": "clinical-registry-data-platform-site", "topics": ["Data platforms"] },
-    { "owner": "justin-napolitano", "repo": "news-reader", "topics": ["Applications", "Data platforms"] },
-    { "owner": "justin-napolitano", "repo": "creative-resume", "topics": ["Websites"] },
-    { "owner": "justin-napolitano", "repo": "hire-me", "topics": ["Websites"] },
-    { "owner": "justin-napolitano", "repo": "portfolio-for-real", "topics": ["Developer tools", "Websites"] }
+    {
+      "owner": "justin-napolitano",
+      "repo": "jaysearch",
+      "topics": [
+        "Research",
+        "Developer tools"
+      ]
+    },
+    {
+      "owner": "justin-napolitano",
+      "repo": "clinical-registry-data-platform-site",
+      "topics": [
+        "Data platforms"
+      ]
+    },
+    {
+      "owner": "justin-napolitano",
+      "repo": "news-reader",
+      "topics": [
+        "Applications",
+        "Data platforms"
+      ]
+    },
+    {
+      "owner": "justin-napolitano",
+      "repo": "creative-resume",
+      "topics": [
+        "Websites"
+      ]
+    },
+    {
+      "owner": "justin-napolitano",
+      "repo": "hire-me",
+      "topics": [
+        "Websites"
+      ]
+    },
+    {
+      "owner": "justin-napolitano",
+      "repo": "portfolio-for-real",
+      "topics": [
+        "Developer tools",
+        "Websites"
+      ]
+    },
+    {
+      "owner": "justin-napolitano",
+      "repo": "jayburd-bookkeeping",
+      "topics": [
+        "Applications",
+        "Distributed systems",
+        "Accounting"
+      ]
+    }
   ]
 }
