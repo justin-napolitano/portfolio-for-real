@@ -18,7 +18,7 @@ let catalog: DocsCatalog | undefined;
 export function getDocsCatalog(): DocsCatalog {
   if (!catalog) {
     catalog = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data/federated/catalog.json"), "utf8")) as DocsCatalog;
-    if (catalog.version !== 1) throw new Error("Unsupported documentation snapshot");
+    if ((catalog as DocsCatalog & { audience?: string }).audience === "private" || catalog.version !== 1) throw new Error("Unsupported documentation snapshot");
   }
   return catalog;
 }

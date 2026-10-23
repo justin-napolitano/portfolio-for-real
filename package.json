@@ -14,7 +14,10 @@
     "db:check": "tsx scripts/check-schema.ts",
     "docs:sync": "python3 scripts/sync-docs.py",
     "docs:check": "python3 scripts/check-docs.py",
-    "docs:test": "python3 -m unittest discover -s tests -p test_sync_docs.py && tsx --test tests/federated-docs.test.tsx"
+    "docs:test": "python3 -m unittest discover -s tests -p 'test_*.py' && tsx --test tests/federated-docs.test.tsx",
+    "projects:sync": "python3 scripts/sync-projects.py",
+    "projects:check": "python3 scripts/check-projects.py",
+    "private:export": "tsx scripts/render-private-wiki.tsx"
   },
   "dependencies": {
     "@vercel/postgres": "^0.10.0",

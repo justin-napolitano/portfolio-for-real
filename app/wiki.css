@@ -46,3 +46,8 @@
 ::selection { background:#e2ecdf; color:#244b36; }
 @media(max-width:800px) { .wiki-layout { width:calc(100% - 32px); grid-template-columns:minmax(0,1fr); gap:24px; } .wiki-sidebar { position:static; max-height:240px; border-bottom:1px solid #b5bfb1; padding-bottom:12px; } .wiki-repositories li { align-items:start; } }
 @media(max-width:420px) { .wiki-repositories li { display:block; } .wiki-repositories li>span { display:block; margin-top:10px; } }
+.project-log-results h2 { font:500 19px/1.5 Inter,sans-serif; margin:0; overflow-wrap:anywhere; }
+.project-log-results p { margin:6px 0; }
+.project-overview section { margin-bottom:32px; }
+.wiki-home p,.wiki-document p { color:var(--ink); }
+.wiki-home .wiki-meta,.wiki-document .wiki-meta { color:#356349; }

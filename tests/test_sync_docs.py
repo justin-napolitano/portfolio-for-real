@@ -76,6 +76,19 @@ class SyncDocsTests(unittest.TestCase):
                 sync_docs.sync(config, output)
             self.assertEqual(json.loads(output.read_text())["documents"], [])
 
+    def test_private_output_cannot_be_written_into_public_repository(self):
+        with self.assertRaises(ValueError):
+            sync_docs.sync(Path('unused.json'), sync_docs.ROOT/'data/unsafe.json', private=True)
+
+    def test_private_archive_redirect_strips_authentication_and_blocks_other_hosts(self):
+        from urllib.request import Request
+        request = Request('https://api.github.com/repos/example/project/tarball/'+'a'*40, headers={'Authorization':'Bearer synthetic-test-value'})
+        handler = sync_docs.ArchiveRedirect()
+        redirected = handler.redirect_request(request, None, 302, 'Found', {}, 'https://codeload.github.com/example/project/tar.gz/a')
+        self.assertIsNone(redirected.get_header('Authorization'))
+        with self.assertRaises(ValueError):
+            handler.redirect_request(request, None, 302, 'Found', {}, 'https://outside.test/archive')
+
     def test_unicode_and_encoded_source_paths_keep_unique_routes(self):
         self.assertEqual(sync_docs.route_for("repo", "README.md"), "/docs/repo")
         self.assertEqual(sync_docs.route_for("repo", "docs/A guide.md"), "/docs/repo/docs/A%20guide.md")

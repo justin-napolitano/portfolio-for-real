@@ -30,6 +30,7 @@ export default function RootLayout({
           <Link className="brand-title" href="/">Docs</Link>
           <nav aria-label="Primary">
             <Link href="/">Index</Link>
+            <Link href="/log">Project log</Link>
             <Link href="/docs">Repositories</Link>
             <Link href="/#search">Search</Link>
           </nav>

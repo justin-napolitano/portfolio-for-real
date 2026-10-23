@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "title",
+    "summary",
+    "status"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "version": {
+      "const": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 600
+    },
+    "status": {
+      "enum": [
+        "idea",
+        "in-progress",
+        "maintained",
+        "paused",
+        "complete",
+        "archived"
+      ]
+    },
+    "topics": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 60
+      }
+    },
+    "docs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "overview": {
+          "type": "string",
+          "pattern": "^(README\\.md|docs/(?!.*(?:^|/)\\.\\.?/)[^\\\\]+\\.mdx?)$"
+        },
+        "architecture": {
+          "type": "string",
+          "pattern": "^(README\\.md|docs/(?!.*(?:^|/)\\.\\.?/)[^\\\\]+\\.mdx?)$"
+        },
+        "setup": {
+          "type": "string",
+          "pattern": "^(README\\.md|docs/(?!.*(?:^|/)\\.\\.?/)[^\\\\]+\\.mdx?)$"
+        },
+        "operations": {
+          "type": "string",
+          "pattern": "^(README\\.md|docs/(?!.*(?:^|/)\\.\\.?/)[^\\\\]+\\.mdx?)$"
+        },
+        "decisions": {
+          "type": "string",
+          "pattern": "^(README\\.md|docs/(?!.*(?:^|/)\\.\\.?/)[^\\\\]+\\.mdx?)$"
+        },
+        "changelog": {
+          "type": "string",
+          "pattern": "^(README\\.md|docs/(?!.*(?:^|/)\\.\\.?/)[^\\\\]+\\.mdx?)$"
+        }
+      }
+    }
+  }
+}
