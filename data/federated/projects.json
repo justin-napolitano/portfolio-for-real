@@ -1,7 +1,7 @@
 {
   "version": 1,
   "audience": "public",
-  "generatedAt": "2026-10-23T13:58:48.129926+00:00",
+  "generatedAt": "2026-10-23T19:42:46.785421+00:00",
   "projects": [
     {
       "repo": "8rivers",
@@ -1882,7 +1882,7 @@
       "fork": false,
       "archived": false,
       "language": "Go",
-      "pushedAt": "2026-10-23T13:52:04Z",
+      "pushedAt": "2026-10-23T19:37:50Z",
       "createdAt": "2026-10-11T16:01:16Z",
       "branch": "main",
       "url": "https://github.com/justin-napolitano/jayburd-bookkeeping",
@@ -2601,20 +2601,29 @@
     {
       "repo": "portfolio-for-real",
       "owner": "justin-napolitano",
-      "title": "portfolio-for-real",
-      "summary": "",
-      "status": "unreported",
-      "topics": [],
-      "docs": {},
+      "title": "Project log and documentation wiki",
+      "summary": "Repository-owned project history and documentation, collected into a searchable reading layer.",
+      "status": "maintained",
+      "topics": [
+        "Developer tools",
+        "Documentation",
+        "Websites"
+      ],
+      "docs": {
+        "overview": "README.md",
+        "architecture": "docs/federated-documentation.md",
+        "setup": "docs/documentation-standard.md",
+        "operations": "docs/federated-documentation.md"
+      },
       "visibility": "public",
       "fork": false,
       "archived": false,
-      "language": "MDX",
+      "language": "TypeScript",
       "pushedAt": null,
       "createdAt": "2026-01-04T19:25:20Z",
       "branch": "main",
       "url": "https://github.com/justin-napolitano/portfolio-for-real",
-      "hasManifest": false
+      "hasManifest": true
     },
     {
       "repo": "prepare-chicken-salad",
