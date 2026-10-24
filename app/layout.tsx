@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="brand-document">
+        <div className="brand-document brand-site-surface">
         <header className="brand-header">
           <Link className="brand-title" href="/">Docs</Link>
           <nav aria-label="Primary">
