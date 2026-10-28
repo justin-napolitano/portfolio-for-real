@@ -1,7 +1,7 @@
 {
   "version": 1,
   "audience": "public",
-  "generatedAt": "2026-10-27T22:22:20.651827+00:00",
+  "generatedAt": "2026-10-28T05:52:35.900416+00:00",
   "projects": [
     {
       "repo": "8rivers",
@@ -1882,7 +1882,7 @@
       "fork": false,
       "archived": false,
       "language": "Go",
-      "pushedAt": "2026-10-27T14:45:06Z",
+      "pushedAt": "2026-10-28T01:15:15Z",
       "createdAt": "2026-10-11T16:01:16Z",
       "branch": "main",
       "url": "https://github.com/justin-napolitano/jayburd-bookkeeping",
@@ -2156,6 +2156,24 @@
       "createdAt": "2022-05-16T18:30:59Z",
       "branch": "main",
       "url": "https://github.com/justin-napolitano/loc_scraper",
+      "hasManifest": false
+    },
+    {
+      "repo": "logistics-runtime",
+      "owner": "justin-napolitano",
+      "title": "logistics-runtime",
+      "summary": "Go/PostgreSQL inventory, reusable shopping proposals, and offline order-email reports. Synthetic fixtures only.",
+      "status": "unreported",
+      "topics": [],
+      "docs": {},
+      "visibility": "public",
+      "fork": false,
+      "archived": false,
+      "language": "Go",
+      "pushedAt": "2026-10-28T04:19:36Z",
+      "createdAt": "2026-10-27T23:08:50Z",
+      "branch": "main",
+      "url": "https://github.com/justin-napolitano/logistics-runtime",
       "hasManifest": false
     },
     {
