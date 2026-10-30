@@ -1,7 +1,7 @@
 {
   "version": 1,
   "audience": "public",
-  "generatedAt": "2026-10-30T13:06:32.650776+00:00",
+  "generatedAt": "2026-10-30T22:27:25.013416+00:00",
   "projects": [
     {
       "repo": "8rivers",
@@ -1868,24 +1868,6 @@
       "createdAt": "2021-10-13T17:10:54Z",
       "branch": "main",
       "url": "https://github.com/justin-napolitano/JanusGraphAPI",
-      "hasManifest": false
-    },
-    {
-      "repo": "jayburd-bookkeeping",
-      "owner": "justin-napolitano",
-      "title": "jayburd-bookkeeping",
-      "summary": "Go and PostgreSQL bookkeeping: transactional ledger, durable jobs, and GCP delivery",
-      "status": "unreported",
-      "topics": [],
-      "docs": {},
-      "visibility": "public",
-      "fork": false,
-      "archived": false,
-      "language": "Go",
-      "pushedAt": "2026-10-30T01:39:22Z",
-      "createdAt": "2026-10-11T16:01:16Z",
-      "branch": "main",
-      "url": "https://github.com/justin-napolitano/jayburd-bookkeeping",
       "hasManifest": false
     },
     {
